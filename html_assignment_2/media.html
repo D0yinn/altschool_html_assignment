@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adedoyin Biography</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title">Adedoyin's Biography</h1>
+        <p>Now that you've found me... welcome!</p>
+      </header>
+      <figure id="img-div">
+         <img src="./images/profilepic.jpeg" id="image">
+        </figure>
+        <section id="intro">
+          <article id=introduction>
+            <h2>Introduction</h2>
+            <p>Hello! I am just a girl who tires to push beyond the limits of societal
+              and financial boundaries but constantly in a tired state and would rather
+              sleep if she could wish her dreams into existence. An individual who has
+              no idea if they are on the right path but set on a journey to make a
+              difference in technology and life. If you want to put a face to this
+              paradoxical being, Here’s a glimpse :</p>
+            </article>
+            <picture>
+              <!-- Mobile View: Small Image -->
+              <source
+                media="(max-width: 600px)"
+                srcset="./images/doyinpic4.JPG.jpg"
+              />
+              <!-- Tablet View: Medium Image -->
+              <source
+                media="(min-width: 601px) and (max-width: 1024px)"
+                srcset="./images/doyinpic3.jpg"
+              />
+              <!-- Laptop View: Large Image -->
+              <source
+                media="(min-width: 1025px)"
+                srcset="./images/doyinpic2.jpg" id="destop-img"
+              />
+              <!-- Default Image if no media query matches -->
+              <img
+                src="images/IMG_2083.jpg"
+                alt="A picture of me"
+                width="500"
+                height="500"
+              />
+            </picture>
+            <article id="vision">
+              <h2>Adeoyin's Vision.</h2>
+              <p>
+              With a background in technology and a heart for innovation, I aim to
+              bridge the digital divide and empower those with limited access to
+              technology. Stay tuned for more as I continue my journey of growth and
+              empowerment!
+              </p>
+            </article>
+               
+          </section>
+          <footer id="footer">If i interest you just a little more than you expected, <a href="#" target="_blank" id="tribute-link">click here.</a> </footer>
+      </main>
+    </body>
+</html>
